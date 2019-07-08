@@ -1,0 +1,17 @@
+rocket-mq:
+  enabled: true
+  property:
+    # mq消费组ID
+    group-id: GID_broker_test
+    # 访问公钥
+    access-key: LTAIp7oxgDDLPZgT
+    # 访问私钥
+    secret-key: gj6pLuMKqqD8Ggc6kknb6IdStwL7RC
+    # 访问url
+    namesrv-addr: http://MQ_INST_1626951952109175_Bayrxslo.mq-internet-access.mq-internet.aliyuncs.com:80
+    # 访问模式：集群
+    messageModel: CLUSTERING
+    # 消息主题
+    topic: broker-transfer-test
+    # 消息标签
+    tags: broker-msg
